@@ -8,11 +8,17 @@
 ## Inserir comandos/códigos
 ### Python
 ```
-idade = (int(input('Qual a sua idade? ')
-if idade <= 18
-   print(Acesso negado!)
+x = int(input("Digite um valor: "))
+if (x % 2 == 0):
+  print('O número é par!')
 else:
-   print(Olá, seja bem vindo!)
+  print('O número é impar!')
+
+idade = int(input('Qual a sua idade? '))
+if idade <= 18:
+  print("Acesso negado!")
+else:
+   print("Olá, seja bem vindo!") 
 ```
 
 
